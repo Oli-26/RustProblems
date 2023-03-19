@@ -137,9 +137,7 @@ mod tests {
     fn test_push_back() {
         let mut list = LinkedList::new();
         list.push_back(1);
-        println!{"1"};
         list.push_back(2);
-        println!("2");
         list.push_back(3);
 
         assert_eq!(list.pop_front(), Some(1));
